@@ -2,6 +2,8 @@
 
 ENDPOINTS
 
+
+
  POST http://localhost:8180/pedido
 
 PARAM: "file" -> test.xml
@@ -28,6 +30,6 @@ PARAM: "file" -> test.json
     "codigo_cliente": "1"
     },.....
 
- GET http://localhost:8180/pedido/search?nome=Joao
+ GET http://localhost:8180/pedido/search?nome=Joao&numeroControle=2&.....
 
 
