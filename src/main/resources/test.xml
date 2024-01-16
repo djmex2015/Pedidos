@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pedidos>
+  <pedido>
+    <numero_controle>20</numero_controle>
+    <data_cadastro></data_cadastro>
+    <nome>Joao</nome>
+    <valor>1</valor>
+    <quantidade>6</quantidade>
+    <codigo_cliente>1</codigo_cliente>
+  </pedido>
+  <pedido>
+    <numero_controle>21</numero_controle>
+    <data_cadastro>11-12-2024 12:00:10</data_cadastro>
+    <nome>Joao2</nome>
+    <valor>2</valor>
+    <quantidade>7</quantidade>
+    <codigo_cliente>2</codigo_cliente>
+  </pedido>
+  <pedido>
+    <numero_controle>22</numero_controle>
+    <data_cadastro>12-12-2024 12:00:10</data_cadastro>
+    <nome>Soao3</nome>
+    <valor>3</valor>
+    <quantidade>20</quantidade>
+    <codigo_cliente>5</codigo_cliente>
+  </pedido>
+  <pedido>
+    <numero_controle>23</numero_controle>
+    <data_cadastro>13-12-2024 12:00:10</data_cadastro>
+    <nome>Toao4</nome>
+    <valor>4</valor>
+    <quantidade>20</quantidade>
+    <codigo_cliente>6</codigo_cliente>
+  </pedido>
+</pedidos>

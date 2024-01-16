@@ -1,0 +1,27 @@
+# Default properties file
+spring:
+  application:
+    name: pedido
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+  jpa:
+    properties:
+      hibernate.default_schema: 'public'
+    open-in-view: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: validate
+      dialect: org.hibernate.dialect.MySQLDialect
+app:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://localhost:3306/pedidos
+    username: root
+    password: root
+    pool-size: 30
+
+server:
+  port: 8180
